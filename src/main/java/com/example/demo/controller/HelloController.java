@@ -14,7 +14,7 @@ public class HelloController {
 
     @RequestMapping(value = "/getUser" ,method = {RequestMethod.POST,RequestMethod.GET})
     public String getUser(int id){
-        System.out.println("测试合并--远程");
+        System.out.println("测试合并");
 
         return "";
     }
